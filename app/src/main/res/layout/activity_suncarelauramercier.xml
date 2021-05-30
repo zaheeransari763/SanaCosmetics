@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Suncarelauramercier"
+    android:orientation="vertical"
+    android:background="@drawable/gradientback">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool2"
+            android:text=" Sun Products.."
+            android:textColor="#6200EA"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="fill_vertical">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Flawless Skin"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/suncarelauraone"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Sunscreen is easily absorbed by the skin to create an invisible shield.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:190 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/flawlessQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyFlawless"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Repair Day cream"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/suncarelauratwo"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Advanced anti-aging daily moisturizer repair skin for a smoother, radiant, younger-looking.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:1130 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/repairQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyRepair"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Repair Oil free day cream"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/suncarelaurathree"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Ideal for daily use, this nourishing formulation offers SPF protection.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:730 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/oilQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyOil"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

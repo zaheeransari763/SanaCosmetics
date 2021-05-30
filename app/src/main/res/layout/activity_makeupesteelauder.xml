@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Makeupesteelauder"
+    android:orientation="vertical"
+    android:background="@drawable/gradientback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool1"
+            android:text=" Makeup Products.."
+            android:textColor="#6200EA"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="fill_vertical">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D8C7C7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lauser1text"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estee Lauder Daywear Anti-Oxidant"
+                    android:textSize="25sp"
+                    android:textColor="#D81B60">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product1"
+                        android:layout_gravity="center_horizontal">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:text="Hydra-light. Hydra-fresh. 72-hour hydration. Powerful protection. This whipped, ultra-light sorbet creme drenches skin on contact. Oil-free formula absorbs quickly with a barely-there feel">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price:800 Rs/-"
+                        android:textSize="20sp"
+                        android:textColor="#000">
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quantity:"
+                        android:textSize="20sp"
+                        android:textColor="#000">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/lauderQty"
+                        android:layout_marginStart="6dp"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/edittextround"
+                        android:hint="0"
+                        android:textColor="#D50000"
+                        android:inputType="number"
+                        android:textColorHint="#D50000">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/buyLauder"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Buy"
+                    android:layout_marginStart="150dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn_round">
+
+
+                </Button>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D8C7C7"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Double Wear Stay-In-Place "
+                    android:textSize="25sp"
+                    android:textColor="#D81B60">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product2"
+                        android:layout_gravity="center_horizontal">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:text="Medium to full coverage Transfer resistant Waterproof and long lasting product">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price:1200 Rs/-"
+                        android:textSize="20sp"
+                        android:textColor="#000">
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quantity:"
+                        android:textSize="20sp"
+                        android:textColor="#000">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/doubleQty"
+                        android:layout_marginStart="6dp"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/edittextround"
+                        android:hint="0"
+                        android:textColor="#D50000"
+                        android:inputType="number"
+                        android:textColorHint="#D50000">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/buyDouble"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Buy"
+                    android:layout_marginStart="150dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn_round">
+
+
+                </Button>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pure Color Love Lipstick"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product3"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Daring. Vibrant. Striking. Sublime. Color has never felt so fun!There are no rules in Love - so play, mix and remix.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:1900 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/lispstickQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyLipstick"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Perfectionist CP+R Wrinkle Lifting"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product4"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Dramatically reduces the look of lines, wrinkles.Breakthrough CPR-75 technology.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:7000 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/wrinkleQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyWrinkle"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cover Camouflage Makeup SPF 15"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product5"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Provides flawless coverage for up to 12 hrs,Full coverage makeup,Ensures matte finish.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:3300 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/camouflageQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyCamouflage"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Modern Muse Eau De Parfum"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/product6"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text=" Experience the fragrance that captures your style, your confidence, your creative spirit. An alluring contrast of sparkling florals.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:5500 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/modernQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyModern"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Skincareesteelauder"
+    android:orientation="vertical"
+    android:background="@drawable/gradientback">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool1"
+            android:text=" Skin Products.."
+            android:textColor="#6200EA"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="fill_vertical">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lauser1text"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rapid Brightening with Vitamin C"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/skinesteeone"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Brightens dark spots, acne marks. Skintone looks more even">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:3800 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/rapidQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyRapid"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="White Brightening Youth Creme"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/skinesteetwo"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Radiance beams. Skintone looks more even. Discolorations appear minimized.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:1000 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/whiteQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyWhite"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cleansing Bar"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/skinesteethree"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Crafted in Japan with a nutritiously rich micro-algae blend, this gentle cleanser purifies skin.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:600 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/barQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyBar"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UV Fluid SPF 45 with Anti-Oxidants"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/skinesteefour"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="UVA/UVB Broad Spectrum Defense in a smooth, lightweight fluid.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:6200 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/fluidQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyFluid"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#D8C7C7"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Radiant Energy Lotion Fresh Moist"
+                        android:textSize="25sp"
+                        android:textColor="#D81B60">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/skinesteefive"
+                            android:layout_gravity="center_horizontal">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:text="Lightweight, refreshing hydration—supercharged and Precision-crafted.">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:4300 Rs/-"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity:"
+                            android:textSize="20sp"
+                            android:textColor="#000">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/lotionQty"
+                            android:layout_marginStart="6dp"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/edittextround"
+                            android:hint="0"
+                            android:textColor="#D50000"
+                            android:inputType="number"
+                            android:textColorHint="#D50000">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/buyLotion"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:layout_marginStart="150dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn_round">
+
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo2">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/logintext"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="60sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:drawableLeft="@drawable/name"
+            android:background="@drawable/edittextround"
+            android:id="@+id/username"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:drawableLeft="@drawable/email"
+            android:background="@drawable/edittextround"
+            android:id="@+id/useremail"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:hint="E-mail"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:drawableLeft="@drawable/phone"
+            android:background="@drawable/edittextround"
+            android:id="@+id/userphone"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:drawableLeft="@drawable/gender"
+            android:background="@drawable/edittextround"
+            android:id="@+id/usergender"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="Gender (Male/Female)"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:drawableLeft="@drawable/address"
+            android:background="@drawable/edittextround"
+            android:id="@+id/useraddress"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="Address"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:drawableLeft="@drawable/password"
+            android:background="@drawable/edittextround"
+            android:id="@+id/userpassword"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:shadowColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn_round"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginStart="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a Memeber?">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/signintext"
+            android:layout_marginStart="5dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignIn"
+            android:textColor="#D50000">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
